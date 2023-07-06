@@ -10,7 +10,6 @@ html {
 }
 
 #body {
-  height: 150vh;
   background-image: url("./assets/img/5570173.jpg");
   background-size: cover;
   background-attachment: fixed;
@@ -24,10 +23,10 @@ html {
 
 .body-container {
   border-radius: 15px;
-  height: 140vh;
-  width: 95%;
-  backdrop-filter: sepia(80%);
-  opacity: .96;
+  margin: 5vh 0;
+  width: 85%;
+  backdrop-filter: blur(10px);
+  opacity: .9;
 }
 
 .header > nav {
@@ -36,7 +35,7 @@ html {
   border-bottom: 1px solid grey;
   align-items: center;
   height: 8vh;
-  padding: 0 3vh;
+  padding: 1vh 3vh;
 }
 .header > nav > ul {
   display: flex;
@@ -55,7 +54,7 @@ header ul{
   border: 3px solid transparent;
 }
 .header > nav li:hover {
-  border-top: 3px solid #115e59;
+  border-top: 3px solid #FC2A30;
 }
 .header a {
   text-decoration: none;
@@ -67,23 +66,18 @@ header ul{
   justify-content: center;
   align-items: center;
 }
-.header h1 {
-  color: whitesmoke;
-}
+
 
 header {
-  height: 500px;
+  height: 70vh;
   background-color: whitesmoke;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-header > h3 {
-  color: black;
-  font-size: 4rem;
-  letter-spacing: 1rem;
-}
+
+
 header > h2 {
   font-size: 1.8rem;
   letter-spacing: 0.3rem;
